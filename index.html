@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Sports Trivia</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css"> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css">
+
+    
+</head>
+<body>
+    <div class="container">
+        <br>
+        <br>
+        <div class="row">
+            <h1 class="col-12 text-center">
+                Sports Trivia Game!!
+            </h1>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-12 text-center">
+                <button type="button" class="btn btn-danger" id="start-button">Start</button>
+            </div>
+        </div>
+        <div class="container" id="game-area">
+            <div class="row">
+                <div class="col-12 text-center" id="time-remaining"></div>
+            </div>         
+            <br>
+            <div class="row">
+                <div class="col-3"></div>
+                <div class="col-6 text-center" id="trivia-question"></div>
+            </div>
+            <br> 
+            <div class="row">
+                <div class="col-3"></div>
+                <div class="col-6 text-center" id="question-image"></div>
+            </div>
+            <br>
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-3"></div>
+                    <div class="col-3 trivia-choices" id="choice-0"></div>
+                    <div class="col-3 trivia-choices" id="choice-1"></div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-3"></div>
+                    <div class="col-3 trivia-choices" id="choice-2"></div>
+                    <div class="col-3 trivia-choices" id="choice-3"></div>
+                </div>
+            </div> 
+        </div>
+        
+        
+
+    </div>
+
+   
+
+    
+    <script src="assets/javascript/app.js"></script>
+</body>
+</html>

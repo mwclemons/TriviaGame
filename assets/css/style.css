@@ -1,0 +1,15 @@
+.trivia-choices:hover {
+    background-color: rgb(200, 245, 37);
+    color: black;
+    font-weight: bold;
+    border: 2pt solid whitesmoke;
+}
+
+body {
+    background-color: rgb(6, 50, 247);
+    color: whitesmoke;
+}
+
+.img-fluid {
+    border: 2pt solid whitesmoke;
+}
