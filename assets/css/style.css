@@ -6,10 +6,36 @@
 }
 
 body {
-    background-color: rgb(6, 50, 247);
+    /* background-color: rgb(6, 50, 247); */
     color: whitesmoke;
 }
 
 .img-fluid {
     border: 2pt solid whitesmoke;
 }
+
+#board {
+    background-color: black;
+    height: 98%;
+
+    /* margin-top: 1%; */
+    /* margin-bottom: 2%;  */
+
+}
+
+body, html {
+    height: 100%;
+}
+
+.bg {
+    /* The image used */
+    background-image: url("../images/sports.jpg");
+    
+    /* Full height */
+    height: 100%;
+    
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
